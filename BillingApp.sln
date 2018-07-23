@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BillingApp.Web", "BillingApp.Web\BillingApp.Web.csproj", "{9296C50E-79F5-4E1D-83F6-3D8B44C59A74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BillingApp.Data", "BillingApp.Data\BillingApp.Data.csproj", "{E528CB1F-C3A5-4116-8B48-BB7BA7B5FEF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BillingApp.Model", "BillingApp.Model\BillingApp.Model.csproj", "{5F88E435-0EF8-4130-BBE9-CEDD12CA962F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BillingApp.Service", "BillingApp.Service\BillingApp.Service.csproj", "{327D70D0-1248-448C-95A9-249063ED502E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BillingApp.Resolver", "BillingApp.Resolver\BillingApp.Resolver.csproj", "{4AB65DD6-54AE-4E9E-B3D2-8C3149261C83}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BillingApp.LoginAuth", "BillingApp.LoginAuth\BillingApp.LoginAuth.csproj", "{EE393E49-F36F-429F-971C-E3FC0DCB8395}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9296C50E-79F5-4E1D-83F6-3D8B44C59A74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9296C50E-79F5-4E1D-83F6-3D8B44C59A74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9296C50E-79F5-4E1D-83F6-3D8B44C59A74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9296C50E-79F5-4E1D-83F6-3D8B44C59A74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E528CB1F-C3A5-4116-8B48-BB7BA7B5FEF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E528CB1F-C3A5-4116-8B48-BB7BA7B5FEF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E528CB1F-C3A5-4116-8B48-BB7BA7B5FEF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E528CB1F-C3A5-4116-8B48-BB7BA7B5FEF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F88E435-0EF8-4130-BBE9-CEDD12CA962F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F88E435-0EF8-4130-BBE9-CEDD12CA962F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F88E435-0EF8-4130-BBE9-CEDD12CA962F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F88E435-0EF8-4130-BBE9-CEDD12CA962F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{327D70D0-1248-448C-95A9-249063ED502E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{327D70D0-1248-448C-95A9-249063ED502E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{327D70D0-1248-448C-95A9-249063ED502E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{327D70D0-1248-448C-95A9-249063ED502E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AB65DD6-54AE-4E9E-B3D2-8C3149261C83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AB65DD6-54AE-4E9E-B3D2-8C3149261C83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AB65DD6-54AE-4E9E-B3D2-8C3149261C83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AB65DD6-54AE-4E9E-B3D2-8C3149261C83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE393E49-F36F-429F-971C-E3FC0DCB8395}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE393E49-F36F-429F-971C-E3FC0DCB8395}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE393E49-F36F-429F-971C-E3FC0DCB8395}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE393E49-F36F-429F-971C-E3FC0DCB8395}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.0\lib\NET35
+	EndGlobalSection
+EndGlobal
