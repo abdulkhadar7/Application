@@ -7,20 +7,13 @@ namespace BillingApp.Data
     using System.Data.Entity.Spatial;
 
     [Table("SupplierMaster")]
-    public partial class SupplierMaster
+    public class SupplierMaster
     {
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public SupplierMaster()
-        {
-            SupplierDetails = new HashSet<SupplierDetail>();
-        }
-
+        [Key]
         public int SupplierMasterID { get; set; }
 
         public int ShopID { get; set; }
 
-        [Required]
-        [StringLength(250)]
         public string SupplierName { get; set; }
 
         public decimal? TotalPurchaseAmount { get; set; }
@@ -33,9 +26,6 @@ namespace BillingApp.Data
 
         public int? RowStatus { get; set; }
 
-        public virtual ShopDetail ShopDetail { get; set; }
-
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<SupplierDetail> SupplierDetails { get; set; }
     }
+
 }

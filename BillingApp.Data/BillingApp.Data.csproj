@@ -55,7 +55,6 @@
     <Compile Include="BillingAppEntities.cs" />
     <Compile Include="ClientDetail.cs" />
     <Compile Include="ClientMaster.cs" />
-    <Compile Include="DependencyResolver.cs" />
     <Compile Include="GenericRepository\GenericRepository.cs" />
     <Compile Include="InventoryDetail.cs" />
     <Compile Include="InventoryMaster.cs" />

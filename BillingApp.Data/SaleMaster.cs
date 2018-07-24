@@ -7,14 +7,9 @@ namespace BillingApp.Data
     using System.Data.Entity.Spatial;
 
     [Table("SaleMaster")]
-    public partial class SaleMaster
+    public class SaleMaster
     {
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public SaleMaster()
-        {
-            SaleDetails = new HashSet<SaleDetail>();
-        }
-
+        [Key]
         public int SaleMasterID { get; set; }
 
         public DateTime SaleDate { get; set; }
@@ -31,11 +26,6 @@ namespace BillingApp.Data
 
         public int? RowStatus { get; set; }
 
-        public virtual ClientMaster ClientMaster { get; set; }
-
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<SaleDetail> SaleDetails { get; set; }
-
-        public virtual ShopDetail ShopDetail { get; set; }
     }
+
 }

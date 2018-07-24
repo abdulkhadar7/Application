@@ -7,8 +7,9 @@ namespace BillingApp.Data
     using System.Data.Entity.Spatial;
 
     [Table("SupplierDetail")]
-    public partial class SupplierDetail
+    public class SupplierDetail
     {
+        [Key]
         public int SupplierDetailID { get; set; }
 
         public int SupplierMasterID { get; set; }
@@ -23,6 +24,5 @@ namespace BillingApp.Data
 
         public int? RowStatus { get; set; }
 
-        public virtual SupplierMaster SupplierMaster { get; set; }
     }
 }
